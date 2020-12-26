@@ -1954,11 +1954,11 @@ cite {
   clear: both;
 }
 body.home [role="banner"] {
-  background: url("../img/wood.jpg") no-repeat left top;
+  background: url("../media/flame1.jpg") no-repeat left top;
   background-color: #4a3a30;
   background-size: cover;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
 }
 [role="banner"] > .flex {
   padding-top: 0;
@@ -1972,16 +1972,16 @@ body.home [role="banner"] {
 }
 
 [role="main"] .hero-section {
-  background: url("../img/wood.jpg") repeat-y left -167px;
+  background: url("../media/flame1.jpg") no-repeat top 0 left -304px;
   background-color: #4a3a30;
   background-size: cover;
   padding-top: 0;
 }
-@media all and (min-width: 64em) {
+/* @media all and (min-width: 64em) {
   [role="main"] .hero-section {
     padding-top: 60px;
   }
-}
+} */
 
 [role="navigation"] {
   -webkit-transition: opacity 1s ease-in-out;
